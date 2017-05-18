@@ -1,0 +1,14 @@
+%Quantidade de neurônios na camada de Saida Out
+Out = 1; 
+
+%Definindo a taxa de aprendizagem - Valor Eta.
+eta = 0.00014;
+
+%Quantidade de épocas
+Epocas = 55000; 
+
+%Se a função de ativação é linear, então Defini-se o valor da constante k.
+k = 1; 
+
+%Matriz que imprime o gráfico do erro quadrátido médio
+grafico_erro = [];
